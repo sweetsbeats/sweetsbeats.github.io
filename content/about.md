@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2022-12-21T15:20:41-08:00
-draft: true
+draft: false
 ---
 
 # Heya
