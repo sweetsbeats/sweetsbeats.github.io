@@ -1,0 +1,46 @@
+baseURL = 'http://sweetsbeats.github.io/'
+languageCode = 'en-us'
+title = """ようこそ へ、"""
+theme = 'hugo-theme-tokiwa'
+
+
+
+#[permalinks]
+#    posts = ""
+
+
+
+[params]
+description = """Newest posts"""
+useChineseFonts = false 
+postDateFormat = "Mon 02 Jan 2006 1:2"
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1
+        [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url= "/categories/"
+        weight = 2
+    [[menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 3
+
+
+
+[taxonomies]
+    post = "posts"
+    category = "categories"
+ 
+    series = "series"
+    tag = "tags"
