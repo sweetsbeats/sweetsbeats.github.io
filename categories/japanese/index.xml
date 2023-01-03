@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Japanese on ようこそ へ、</title><link>http://sweetsbeats.github.io/categories/japanese/</link><description>Recent content in Japanese on ようこそ へ、</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 21 Dec 2022 20:27:51 -0800</lastBuildDate><atom:link href="http://sweetsbeats.github.io/categories/japanese/index.xml" rel="self" type="application/rss+xml"/><item><title>Breaking Into Literature</title><link>http://sweetsbeats.github.io/posts/breaking-into-literature/</link><pubDate>Wed, 21 Dec 2022 20:27:51 -0800</pubDate><guid>http://sweetsbeats.github.io/posts/breaking-into-literature/</guid><description>&lt;p>The days of the Japanese economic miracle have passed, and the likelihood that you’ll encounter Japanese as a business language has come and gone. Let’s face it, most people who learn Japanese nowadays do so because of anime and manga. These cultural motivations aren’t bad, they’re what’s motivated me for so long, but somewhere along the way my motivations have grown and adapted along the way to include a much wider variety of media, namely books.&lt;/p>
+&lt;p>For a lot of modern Japanese learners, reading books tends not to be a very big motivator, and understandably tends to scare off most learners. Thousands of unique words and kanji with no visual aid towers over you, a menacing, steep cliff that will shake off and filter anyone who isn’t a “true expert”. Even with all the right gear, practicing on easier books still feels incredibly hard.&lt;/p>
+&lt;p>Why is this?&lt;/p>
+&lt;p>In my opinion, this is because books demand a few important things that I don’t think most learners are prepared for.&lt;/p>
+&lt;h3 id="vocab">Vocab:&lt;/h3>
+&lt;p>Unless you&amp;rsquo;re reading picture books, everything that happens in a story has to be described to us through text. Even picture books don&amp;rsquo;t show you everything, and comic books still have speech. Instead of watching a series of actions play out like in a TV show or movie, the actions are instead described to us, and these kinds of third person descriptor words are not something most learners have experience with.&lt;/p>
+&lt;h3 id="grammar">Grammar:&lt;/h3>
+&lt;p>Books are long, and just like any other language authors want to avoid sounding repetitive, hence books tend to contain a very diverse set of grammar points. Not understanding a noun, adverb, etc. can be remedied with a lookup, however understanding the underlying meaning of some grammar points will vary significantly in difficulty and time consumption. While some people can tolerate this level of ambiguity and move on, this can cause issues in your reading further on if you happen to miss some important or critical piece of information.&lt;/p>
+&lt;h3 id="reading-ability">“Reading Ability”:&lt;/h3>
+&lt;p>This one is a sort of catch 22. Let’s refer to one’s “reading ability” in this section, as the ability to read some text without major hiccups or pauses, and at reasonable words per minute depending on the difficulty of the text.&lt;/p>
+&lt;p>Even in your native language, if you don’t read regularly, your natural reading ability will be slow or stilted. If your natural reading ability in a language is low, you will find it harder or unenjoyable to read, and if you find reading difficult or unenjoyable, then you most likely aren’t going to read regularly. This negative feedback loop also happens with languages we’re learning, which in the case of Japanese, can be greatly amplified by its cumbersome writing system.&lt;/p>
+&lt;p>Taking these points into account, it’s easy to see why many end up plateauing in their Japanese learning journey at around the N3 point. Becoming complacent with being able to watch some anime without translated subtitles, being able to read manga even if at a snail’s pace; these motivating factors are mistaken for, or settled for as the end goal, instead of a milestone.&lt;/p>
+&lt;p>The reality is, is that the time investment to reach what most people would consider &amp;ldquo;fluency&amp;rdquo; in Japanese is an endless grind that demands
+thousands of hours, and for those hours has the worst yield in terms of fluency. Japanese is a language that requires every last language learning tip, trick, hack, and technique in order to even come close to learning it in a normal timeframe.&lt;/p></description></item><item><title>Optimizing Word Lookups</title><link>http://sweetsbeats.github.io/posts/optimizing-word-lookups/</link><pubDate>Wed, 21 Dec 2022 20:19:24 -0800</pubDate><guid>http://sweetsbeats.github.io/posts/optimizing-word-lookups/</guid><description>&lt;p>One of the more fun ways in which I&amp;rsquo;ve been immersing &amp;amp; mining recently has been reading manga.
+Most manga are still too hard to go alone on, but recently I&amp;rsquo;ve found myself reading yotsubato almost
+entirely without issue before bed or commuting to school on the bus. I consider this an important milestone
+in my learning; reaching a point where immersion converts from being an endeavour of practice to one of enjoyment is
+the end goal of learning any language. For manga that’s still a bit too hard for me, so I’ve created a decently
+efficient workflow for lookups and mining to make reading more fun.&lt;/p>
+&lt;p>The workflow makes use of mainly three tools: yomichan, sharex, and &lt;a href="https://github.com/kha-white/manga-ocr">manga-ocr&lt;/a>.
+Manga-ocr is exactly what it sounds like: an OCR model trained on mostly manga and video games,
+and the workflow revolves around feeding it pictures of text.&lt;/p>
+&lt;p>We take a picture with ShareX, which is saved to a specific folder.
+This is best accomplished by creating a separate sharex workflow with a dedicated key combination,
+for reasons I’ll mention later (I use ctrl+alt+print_screen).
+Manga-ocr watches this folder and examines any new images saved to it, and places any extracted text into the clipboard.
+For the last leg of this process, Yomichan’s dedicated search page can be set to watch your clipboard for new text and perform a lookup.&lt;/p>
+&lt;p>In practice, it’s as simple as taking a picture of an unknown word or chunk of text using ShareX,
+and viewing the yomichan search page to see what it is. From there, you can use yomichan’s built in
+features to create an anki card using AnkiConnect, or just move on if you’re only doing lookups.&lt;/p>
+&lt;p>As I mentioned earlier, using a separate sharex workflow that only saves to a folder has a unique advantage
+for card creation using yomichan, in that we can make cards with pictures of the manga panels in which we find words from.
+This is accomplished with the yomichan setting found under [Anki], which will insert whatever image is on the clipboard
+at the time of creation into your card. To do this ourselves, we first take a picture of the text with our sharex workflow,
+then screenshot the area we want using the default image region capture, and finally click the “add expression” button in yomichan.&lt;/p>
+&lt;p>All together, I’m quite happy with both the speed and quality of cards that come out,
+and I especially love getting to see the panel that I mined the word from.&lt;/p></description></item></channel></rss>
